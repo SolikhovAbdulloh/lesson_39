@@ -1,12 +1,9 @@
-let str = 'camelCase'
-
-let str2 = " ";
-
-for(let i = 0 ; i < str.length){
-    if(str[i] === str[i].toUpperCase()){
-        str2 += " " + str[i]
-        str2 += str[i];
-    }
+function dragon(ajdar,oq){
+    return oq >= ajdar * 2;
 }
 
-console.log(str2);
+
+
+console.log(dragon(10,5));
+console.log(dragon(7,4));
+console.log(dragon(4,2));
